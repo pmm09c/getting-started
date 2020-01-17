@@ -1,11 +1,11 @@
 IBM Large Model Support (LMS)
 -----------------------------
 
-Allow seamlessly moves layers of a model between the GPU and CPU to
-overcome GPU memory limits allows training of:
+Seamlessly move layers of a model between the GPU and CPU to overcome
+GPU memory limits and allow training of:
 
 -  Deeper models
--  Higher resolution data
+-  Higher resolution data 
 -  Larger batch sizes
 
 Satori nodes have a fast NVLink 2.0 connection between the CPU and GPU,
@@ -62,7 +62,7 @@ Documentation and Tutorial:
 
 Examples:
 
--  `Simple Keras/TensorFlow with syntetic
+-  `Simple Keras/TensorFlow with synthetic
    data <https://github.com/IBM/powerai/tree/master/examples/tensorflow_large_model_support/v2>`__
    for high resolution images
 -  `3D U-Net with Keras/TensorFlow for Medical
